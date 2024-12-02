@@ -1,6 +1,8 @@
 :root{
     --font-use: "Raleway", sans-serif;
     --color-text-hover-1: #FF589E;
+    --color-button-1: #FF589E;
+    --color-button-1-hov: #8261EE;
 }
 *{
     box-sizing: border-box;

@@ -1,18 +1,40 @@
+/* Button  */
+.button1{
+    display: inline-flex;
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: var(--color-button-1);
+    border-radius: 40px;
+    transition: background-color 0.4s;
+}
+.button1:hover{
+    color: #fff;
+    background-color: var(--color-button-1-hov);
+}
+/* End Button  */
+
 /* Header  */
 .header{
     padding-top: 1.5rem;
-    position: sticky;
+    position: fixed;
+    z-index: 100;
+    top: 30px;
+    width: 100%;
 }
 .header .inner-head{
     width: 100%;
     background-color: #fff;
     border-radius: 40px;
-    padding: 1rem;
+    padding: 1.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.header .inner-head ul{
+    margin-right: 0;
+    padding-right: 0;
+}
 .header .inner-head .nav li{
     padding: 0 0.8rem;
 }
@@ -24,9 +46,9 @@
 .header .inner-head .nav li a{
     font-size: 15px;
 }
-.header .inner-head i{
+.header .inner-head .menu{
     display: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -40,7 +62,7 @@
     color: var(--color-text-hover-1);
 }
 @media (max-width: 992px){
-   .header .inner-head i{
+   .header .inner-head .menu{
         display: block;
    }
    .header .inner-head .nav{
@@ -48,3 +70,28 @@
    }
 }
 /* End Header  */
+
+/* Introduction  */
+.intro{
+    background-image: url("../images/banner-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    padding-top: 20%;
+    text-align: center;
+    text-wrap: wrap;
+}
+.intro .inner-title{
+    color: #fff;
+    font-size: 37px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.intro .inner-desc{
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+/* End Introduction  */
