@@ -1,0 +1,16 @@
+:root{
+    --font-use: "Raleway", sans-serif;
+    --color-text-hover-1: #FF589E;
+}
+*{
+    box-sizing: border-box;
+    font-family: var(--font-use);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
