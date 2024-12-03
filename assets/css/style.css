@@ -1,16 +1,26 @@
 /* Button  */
-.button1{
+.button{
     display: inline-flex;
     font-size: 13px;
-    color: #fff;
     padding: 10px 15px;
-    background-color: var(--color-button-1);
     border-radius: 40px;
     transition: background-color 0.4s;
+}
+.button1{
+    color: #fff;
+    background-color: var(--color-button-1);
 }
 .button1:hover{
     color: #fff;
     background-color: var(--color-button-1-hov);
+}
+.button2{
+    color: #fff;
+    background-color: var(--color-button-2);
+}
+.button2:hover{
+    color: #fff;
+    background-color: var(--color-button-2-hov);
 }
 /* End Button  */
 
@@ -307,8 +317,6 @@
     font-size: 14px;
     color: var(--color-text-1);
 }
-/* End Testimonials */
-/* Others */
 .testimonials .inner-box .i2{
     display: inline-block;
     background-image: url("../images/vit.png");
@@ -320,4 +328,84 @@
     padding: 0; 
     margin: 0;
 }
+/* End Testimonials */
+/* Pricing Plans  */
+.pricing-plan{
+    padding: 90px 0;
+    background-color: var(--color-bg-4);
+}
+.pricing-plan .inner-wrap{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-plan .inner-title{
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.pricing-plan .inner-desc{
+    font-size: 15px;
+    color: var(--color-text-1);
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+.pricing-plan .box{
+    width: 100%;
+}
+.pricing-plan .inner-box{
+    background: #fff;
+    border-radius: 20px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-plan .inner-box .pricing-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.pricing-plan .inner-box .inner-price{
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--color-bg-2);
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.pricing-plan .box div:nth-child(2) .inner-box .inner-price {
+    background-color: var(--color-bg-1);
+}
+
+.pricing-plan .inner-box .inner-price i{
+    font-size: 32px;
+}
+.pricing-plan .inner-box .inner-price span{
+    font-size: 28px;
+    font-weight: 665;
+}
+.pricing-plan .inner-box .inner-price p{
+    margin-bottom: 0;
+}
+.pricing-plan .inner-box ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.pricing-plan .inner-box ul li{
+    color: var(--color-text-1);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+/* End Pricing Plans  */
+/* Others */
 /* End Others */

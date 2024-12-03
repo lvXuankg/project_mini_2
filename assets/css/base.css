@@ -4,9 +4,12 @@
     --color-text-hover-1: #FF589E;
     --color-button-1: #FF589E;
     --color-button-1-hov: #8261EE;
+    --color-button-2: #8261EE;
+    --color-button-2-hov: #FF589E;
     --color-bg-1: #FF589E;
     --color-bg-2: #8261EE;
     --color-bg-3: #9E7EE9;
+    --color-bg-4: #F2F2FE;
 }
 *{
     box-sizing: border-box;
