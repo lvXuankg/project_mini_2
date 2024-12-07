@@ -22,6 +22,23 @@
     color: #fff;
     background-color: var(--color-button-2-hov);
 }
+.button3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: var(--color-button-3);
+    transition: all 0.5s;
+    border: none;
+}
+.button3:hover{
+    color: #fff;
+    background-color: var(--color-button-3-hov);
+}
 /* End Button  */
 
 /* Header  */
@@ -408,6 +425,62 @@
 }
 
 /* End Pricing Plans  */
+.talk-to-us{
+    background-color: var(--color-bg-4);
+    padding: 80px 0;
+}
+.talk-to-us .box-head .inner-title{
+    font-size: 28px;
+    margin-bottom: 35px;    
+}
+.talk-to-us .box-head .inner-desc{
+    color: var(--color-text-1);
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.talk-to-us .inner-content{
+    height: 100%;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.talk-to-us .inner-content .inner-title{
+    font-size: 18px;
+}
+.talk-to-us .inner-content p{
+    font-size: 15px;
+    color: var(--color-text-1);
+}
+.talk-to-us .inner-form .form-name{
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 1.7rem;
+}
+.talk-to-us .inner-form .form-name::placeholder{
+    font-size: 13px;
+}
+.talk-to-us .inner-form .form-email{
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 1.7rem;
+}   
+.talk-to-us .inner-form .form-email::placeholder{
+    font-size: 13px;
+}
+.talk-to-us .inner-form .form-message{
+    border-radius: 20px;
+    border: 1px solid #eee;
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 1.7rem;
+}
 /* Footer  */
 .footer{
     background-color: var(--color-bg-5);
@@ -452,4 +525,4 @@
 }
 /* End Footer  */
 /* Others */
-/* End Others */
+/* End Others */ 
